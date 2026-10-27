@@ -9,15 +9,15 @@ public:
 
 public:
     void get_Employee_Data() {
-        cout << "Enter name: ";
+        cout << "Enter name: "<<endl;
         cin >> name;
 
-        cout << "Enter ID: ";
+        cout << "Enter ID: "<<endl;
         cin >> id;
     }
     void display_Employee_Data() {
-        cout << "Employee Name: " << name;
-        cout << "Employee ID: " << id;
+        cout << "Employee Name: " << name<<endl;
+        cout << "Employee ID: " << id<<endl;
     }
 };
 // Derived class
@@ -32,7 +32,7 @@ public:
     }
 
     void display_Salary() {
-        cout << "\nBasic Salary: " << basic_Salary;
+        cout << "Basic Salary: " << basic_Salary<<endl;
     }
 };
 
@@ -48,8 +48,8 @@ public:
     }
 
     void displayTotalSalary() {
-        cout << "Bonus: " << bonus;
-        cout << "Total Salary: " << basic_Salary + bonus;
+        cout << "Bonus: " << bonus<<endl;
+        cout << "Total Salary: " << basic_Salary + bonus<<endl;
     }
 };
 
