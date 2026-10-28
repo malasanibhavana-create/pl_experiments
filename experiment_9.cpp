@@ -22,7 +22,7 @@ public:
 };
 // Derived class
 class Salary : public Employee {
-protected:
+public:
     float basic_Salary;
 
 public:
@@ -38,7 +38,7 @@ public:
 
 // Multilevel derived class
 class Bonus : public Salary {
-private:
+public:
     float bonus;
 
 public:
